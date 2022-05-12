@@ -1,0 +1,207 @@
+
+
+body{
+    background: url(img/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 940px;
+}
+
+.vector{
+    position: absolute;
+    height: 35px;
+    width: 38px;
+    left: 40px;
+    top: 30px;
+    border-radius: 0px;
+}
+
+
+#mensaje{
+    position: absolute;
+    height: 42%;
+    width: 45%;
+    left: 14%;
+    top: 10%;
+    border-radius: nullpx;
+    color: black;
+    background: transparent;
+    outline: none;
+    border: none;
+    resize: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mensaje::placeholder{
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.tarjetanum2{
+    position: absolute;
+    padding: 7px;
+    width: 22%;
+    height: 89%;
+    left: 70%;
+    margin-top: 0%;
+    background: transparent;
+    border-radius: 20px;  
+    box-shadow: 0px 0px 148px -3px black;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    top: 320px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    position: relative;
+    top: 360px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.muneco{
+    position: absolute;
+    padding: 1px;
+    width: 90%;
+    height: 60%;
+    left: 1%;
+    border-radius: 0px; 
+    animation: move_muñeco 6s ease-in-out infinite;
+}
+
+#resultado{
+    position: absolute;
+    padding: 5px;
+    width: 100%;
+    height: 135%;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    font-weight: 600;
+}
+
+.info{
+    position: absolute;
+    top: 530px;
+    left: 20%;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor-botones{
+    position: relative;
+    top: 570px;
+    left: 7%;
+    
+
+}
+
+.contenedor-botones1{
+    position: relative;
+    top: 440px;
+    left: 16%;
+}
+
+
+#encriptar{
+    display: inline;
+    position: static;
+    width: 13%;
+    padding: 10px 0;
+    margin: 0 24px;
+    font-size: 18px;
+    font-weight: 510;
+    border: none;
+    border-radius: 24px;
+    margin-left: 19%;
+    color: black;
+    background: yellow;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px rgb(10, 10, 10);
+    cursor: pointer;
+    transition: box-shadow 500ms; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#encriptar:hover{
+    box-shadow: 1px 1px 30px -5px #f0ecec85
+}
+
+#desencriptar{
+    
+    position: absolute;
+    display: inline;
+    position: static;
+    width: 13%;
+    padding: 10px 0;
+    margin: 0 24px;
+    font-size: 18px;
+    font-weight: 510;
+    border: none;
+    margin-left: 5%;
+    color: rgb(12, 12, 12);
+    background: rgb(179, 12, 12);
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px rgb(10, 10, 10);
+    cursor: pointer;
+    transition: box-shadow 500ms; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+#desencriptar:hover{
+    box-shadow: 1px 1px 10px -5px #f0ecec85
+}
+
+
+#copiar{
+    position: absolute;
+    display: inline;
+    position: static;
+    width: 55%;
+    padding: 10px 0;
+    margin: 0 24px;
+    font-size: 18px;
+    font-weight: 510;
+    border: none;
+    margin-left: 5%;
+    color: rgb(12, 12, 12);
+    background: rgb(179, 12, 12);
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px rgb(10, 10, 10);
+    cursor: pointer;
+    transition: box-shadow 500ms; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#copiar:hover{
+    box-shadow: 1px 1px 10px -5px #f0ecec85
+}
+
+
+@keyframes move_muñeco {
+    0%{
+        transform: translate(4px);    
+    }
+    50%{
+        transform: translate(-4px);    
+    }
+    100%{
+        transform: translate(4px);    
+    }
+    
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/ideas.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <img src="img/Vector.svg" class="vector">
+    
+    <main class="contenedor-principal">
+        <div class="tarjeta num1">
+            <div class="mensaje-contenedor">
+                <input type="text" id="mensaje" placeholder="Ingrese texto...">
+                <div class="contenedor-errores"></div>
+            </div>
+            <p class="info">&#10007;Solo letras minusculas y sin acentos&#10007;</p>
+            <div class="contenedor-botones">
+                <button id="encriptar" form="textarea">Encriptar</button>
+                <button id="desencriptar" form="textarea">Desencriptar</button>
+            </div>
+        </div>
+        <div class="tarjetanum2">
+            <img src="img/Muñeco.svg" class="muneco">
+            <h2 class="titulo-muneco">Ningun mensaje fue encontrado</h2>
+            <p class="parrafo-muneco">Ingrese el texto que desea encriptar</p>
+            <div class="mensaje-contenedor">
+            </div>
+
+            <div class="contenedor-botones1">
+                <button id="copiar" style="display: none;">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
